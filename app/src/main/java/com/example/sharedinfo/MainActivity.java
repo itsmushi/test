@@ -32,6 +32,7 @@ public class MainActivity extends AppCompatActivity {
         editor.putString("username",username.getText().toString());
         editor.putString("password",password.getText().toString());
         editor.apply();
+        //to upload
         Toast.makeText(getApplicationContext(),"Info saved",Toast.LENGTH_SHORT).show();
 
     }
